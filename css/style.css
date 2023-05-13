@@ -1,0 +1,52 @@
+body {
+  padding-top: 2rem;
+}
+
+/* Employee Information Form */
+h2 {
+  margin-bottom: 2rem;
+}
+
+table {
+  margin-top: 2rem;
+}
+.container {
+  max-width: 960px;
+ }
+ .bd-placeholder-img {
+   font-size: 1.125rem;
+   text-anchor: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+ }
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 2rem;
+}
+
+/* Validation styles */
+.invalid-feedback {
+  display: none;
+  color: red;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:invalid + .invalid-feedback {
+  display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .col-md-7 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
